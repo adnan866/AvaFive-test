@@ -25,12 +25,12 @@ export default function productImage() {
       <div className="imageSlider mx-auto w-8/12 mt-7">
         <Slider {...settings} >
           <img src="/pinkbag.jpg" alt="Product-Image" className="relative object-cover w-14 h-14"  />
-          {/* <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
+           <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
           <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
           <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
           <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
           <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} />
-          <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} /> */}
+          <Image src="/pinkbag.jpg" alt="Product-Image" width={60} height={60} objectFit="cover" className="relative" quality={100} /> 
         </Slider>
       </div>
     </div>
