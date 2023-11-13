@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function Rating() {
     const rating = (stars: number): string => `⭐⭐⭐⭐⭐`.slice(5 - stars, 10 - stars);
 
 rating(5); // ★★★★★

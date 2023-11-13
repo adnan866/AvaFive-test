@@ -8,7 +8,7 @@ import Heading from './Components/heading'
 
 export default function Home() {
   return (
-    <>
+    <> 
       <p className='bg-themeGray text-sm text-center p-4'>We are currently experiencing local customs clearance delays. For the latest updates, please check your order status here</p>
       <main className='m-4 mb-16'>
         <HeroSection />

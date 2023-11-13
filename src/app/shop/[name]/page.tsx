@@ -1,12 +1,12 @@
 // import React from "react"
 'use client';
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 
 import Breadcrumb from "../../Components/breadcrumb"
 import ProductDetails from "../../Components/ProductDetailPage/productDetails"
 import ProductImage from "../../Components/ProductDetailPage/productImage"
 import Tabs from "../../Components/ProductDetailPage/tabs"
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 
 import DescriptioTab from "../../Components/ProductDetailPage/Tabs/descriptionTab"
 import RelatedProductTab from "../../Components/ProductDetailPage/Tabs/relatedProductTab"
@@ -42,10 +42,10 @@ const tabs: TabsType = [
 // const apiURL = "https://dummyjson.com/products";
 
 
-export default function productDetail() {
+export default function ProductDetail() {
   const [selectedTab, setSelectedTab] = useState<number>(tabs[0].index);
-  const {name} = useParams();
-  console.log('Product ID =', name)
+  // const {name} = useParams();
+  // console.log('Product ID =', name)
   // const [products, setProducts] = useState([]);
 
   // useEffect(() => {
